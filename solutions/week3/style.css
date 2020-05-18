@@ -2,7 +2,7 @@
     color: rgb(204, 197, 197) !important;
 }
 
-@media (min-width:576px) {
+@media (min-width:768px) {
     nav button {
         display: none;
     }
