@@ -1,0 +1,196 @@
+
+
+html{
+    /* background-color: rgb(139, 28, 0); */
+    color: rgb(0, 0, 0);
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+/* body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(pic1.jpg); 
+    background-size: cover;  
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+
+} */
+nav{
+height: 70px;
+}
+a{
+    font-size: 23px;
+    color: white;
+}
+ .navbar-nav .nav-link:hover {
+    
+    font-size: 28px !important;
+    color:white !important;
+    text-decoration: underline;
+}
+
+#pic-home{
+    width: 100%;
+    height: auto;
+}
+@media(min-width:768px) and (max-width:1400px)
+{
+    #pic-home
+    {
+        width: 45vw;
+        
+
+    }
+    }
+
+.navi{
+    float: left;
+    list-style:upper-alpha;
+    backface-visibility: hidden;
+}
+
+.navi li{
+    display:ruby-text;
+    margin : 50px;
+    padding: 30px;
+    font-size: 26.5px;
+}
+
+.navi li a:link,
+.navi li a:visited{
+    color: salmon;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border-bottom 0.2s;
+    padding:    5px 0px;
+    
+}
+ 
+
+.navi li a:hover,
+.navi li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+
+
+
+.heading{
+    color: rgb(30, 11, 116);
+    text-align: center;
+    font-size: 70px;
+    font: large;
+    font-family: cursive;
+
+}
+
+.font1{
+    font-size: medium;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 220, 23);
+    text-shadow: rgb(0, 0, 0);
+    font-family: cursive;
+
+}
+
+.font2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    text-align: left;
+    font-size: 25px;
+    color: rgb(0, 195, 255);
+}
+
+.font3{
+    font-size: medium;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(255, 220, 23);
+    text-shadow: rgb(0, 0, 0);
+    font-family: cursive;
+
+    
+}
+
+.font4{
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(104, 156, 21);
+    text-align: left;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-heading{
+font-size: 50px;
+    color:yellow;
+    text-align: center;
+}
+
+.icons{
+    margin: 40px;
+    padding:40px;
+    margin-right: 1600px;
+}
+
+.icons a{
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.telegram ion-icon{
+    color: blue;
+    font-size: 30px;
+}
+
+.instagram ion-icon{
+    color: #ff13a9;
+    font-size: 30px;
+}
+.twitter ion-icon{
+    color:#4386f9;
+    font-size: 30px;
+}
+.facebook ion-icon{
+    color:#4386f9;
+    font-size: 30px;
+
+}
+
+.facebook a,
+.instagram a,
+.twitter a,
+.telegram{
+    text-decoration: repeat;
+}
+
+
+.telegram a:active,
+.instagram:active,
+.twitter:active,
+.github:active,
+.telegram:hover,
+.instagram:hover,
+.twitter:hover,
+.github:hover{
+    padding: 5px 0px;
+    border-bottom: 1px solid #000;}
+
+.email{
+    color:white;
+    margin:60px;
+
+}
